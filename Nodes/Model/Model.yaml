@@ -1,0 +1,11 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: Motor1
+  Type: Motor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- File: Types/Types.yaml
