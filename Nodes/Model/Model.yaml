@@ -7,5 +7,5 @@ Children:
   - Name: Speed
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
+    Value: 50
 - File: Types/Types.yaml
