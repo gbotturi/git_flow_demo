@@ -100,3 +100,27 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
+- Name: MotorWidget
+  Id: g=51f1f8efc0067c544b5df867c92ae13b
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Motor
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"9ccf8c479f8398e903ded67ec73aecee","Namespace":6}
